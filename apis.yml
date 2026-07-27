@@ -1,8 +1,27 @@
 aid: hong-kong-asia-medical-group
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/hong-kong-asia-medical-group.png
 name: Hong Kong Asia Medical Group
-description: 'Hong Kong Asia Medical Group is a company surfaced as a portfolio company of hongshan and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: 'Hong Kong Asia Medical Group (HK Asia Medical Group) is a cardiovascular-focused
+  healthcare group established in 1999, beginning with Wuhan Asia Heart Hospital. It operates
+  across Mainland China, Hong Kong SAR, Japan and Indonesia, running hospitals and cardiac
+  centres including Wuhan Asia Heart Hospital, Wuhan Asia General Hospital, Xinjiang
+  Cardio-cerebrovascular Hospital, Sapporo Heart Center, Hong Kong Asia Heart Centre, Bali
+  International Hospital and Shantou Cardiac Surgery Centre. Its work spans clinical medical
+  practice, medical education and cardiovascular research, serving over 8.5 million patients
+  with more than 5,200 medical staff across seven-plus service cities. It is a portfolio
+  company of HongShan (formerly Sequoia Capital China). No public developer or API surface
+  was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/hong-kong-asia-medical-group/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +31,28 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Healthcare
+- Hospital
+- Cardiovascular
+- Medical
+- Asia
+- Hong Kong
 apis: []
+common:
+- type: DomainSecurity
+  url: security/hong-kong-asia-medical-group-domain-security.yml
+- type: Website
+  url: https://hkam-group.com/en-GB
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
